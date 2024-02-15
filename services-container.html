@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Indian Palace</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		
+		html{
+			scroll-behavior: smooth;
+			}
+		#navbar{
+			display: flex;
+			top: 0px;
+			height: 90px;
+			width: 1349px;
+			background-color: #FF0000; 
+			position:fixed; 
+			}
+			
+		#logo img{
+			height: 90px;
+			margin: 3px; 
+			}
+		
+		#navbar ul{
+			display: flex;
+			}
+			
+		#navbar ul li{
+			list-style: none;
+			font-size: 1.3rem; 
+			font-family: 'Times New Roman', Times, serif;
+			}
+		#navbar ul li a{
+			color: white;
+			display: block;
+			padding: 3px 22px;
+			border-radius: 20px;
+			text-decoration: none;
+			}
+			
+		#navbar ul li a:hover{
+			color: black;
+			background-color: white;
+			}
+		body{
+			background-color:#04030F;
+			}
+		
+	/* <!service>
+		 */
+			#services{
+			margin: 34px;
+			display: flex;
+		}
+		#services-container p{
+			color:black;
+			text-align: center;
+			font-family: 'Bree Serif',serif;
+		} 
+		#services .box{
+			border: 2px solid brown; 
+			padding: 30px;
+			margin: 3px 6px;
+			border-radius:28px;
+		}
+		#services .box img{
+				height: 200px;
+				margin: auto;
+				display: block;
+				transition: 0.2% ease;
+			}
+		#services .box img:hover{
+			transform: scale(1.04);
+			}	
+		#services .box:hover{ 
+			background: #FFDEAD;
+			cursor: pointer;
+			}
+		h2{
+			text-align: center;
+			font-family: 'Dancing Script', cursive;
+			font-weight: bold;
+			color:#A52A2A;
+			line-height: 22px;
+			font-size: 30px;
+			padding:10px;
+		}
+		.h-primary{
+			font-size: 2.5rem;
+			padding:12px;
+			text-align:center;
+			font-family: 'Dancing Script', cursive;
+			color: #FFA500;
+			font-weight: bold;
+			margin-top: 70px;
+			}
+		.services-con{ 
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+			grid-gap: 1.5rem;
+			margin-top: 4rem;
+			} 
+		.s-box{
+			text-align: center;
+			padding: 20px 30px;
+			background-color:#E6E6FA;
+			}
+		.s-box img{
+			width: 80px;
+		}
+		.s-box img:hover{ 
+			transform: scale(1.04);
+		}
+		.s-box:hover{
+			transform: scale(1.04);
+			}
+		.s-box h3{ 
+			text-align: center;
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+			font-size: 2rem;
+			font-weight: bold;
+			color:#A52A2A;
+			line-height: 37px;
+			} 
+		 .cta{
+			padding: 70px 0;
+			text-align:center;
+			width: 45%;
+			margin: 100px auto;
+			border-radius: 10px;
+			background: url('https://media.istockphoto.com/id/626853124/photo/hotel-hostess-helping-couple-with-the-check-in.jpg?s=612x612&w=0&k=20&c=iSGn3rwkVW8CHSXsWwM_wVmz59UWZU949FSv7U5ooNY=&w=500');
+			} 
+		.cta h2{
+			font-size: 2.5rem;
+			margin-bottom: 30px;
+			line-height: 1.7rem;
+			font-family: 'Dancing Script', cursive;
+			color: #000000;
+			}
+		.cta h2:hover{
+			transform: scale(1.04);
+			}
+		</style>
+</head>
+<body>
+	<nav id ="navbar">
+		<div  id="logo">
+			<img src="https://indian-palace.de/wp-content/uploads/2020/04/logonew-min.png">
+		</div>
+		
+		<ul class="navbar-nav">
+            <li class="nav-item active">
+			<a href="Home.html">Home</a></li>
+			
+			<li class="nav-item active">
+			<a href="services-container.html"> Services</a></li>
+			
+			<li class="item active">
+			<a href="Menus.html">Menu </a></li>
+		
+			
+			<li class="nav-item active">
+			<a href="Clients1.html">Clients</a></li>
+			
+			<li class="nav-item active">
+			<a href="Contacts.html">Contact </a></li>
+			
+		</ul>
+		</nav>
+	
+		<section id="services-container">
+		<h1 class="h-primary center">Services
+	</h1>	
+		<div id="services">
+			<div class="box">
+				<img src="https://assets.architecturaldigest.in/photos/60084f39f93542952b665f27/master/w_1600%2Cc_limit/Mumbai-restaurant-COVID-19-2.jpg">
+				<h2 class="h-secondary center">Food Catering</h2>
+				<p class="center">You can Test here different type of Foods. We are proviting you many of testy dishes With our expert Shefes</p>
+				
+			</div>
+			
+			<div class="box">
+				<img src="https://previews.123rf.com/images/rilueda/rilueda1501/rilueda150100319/35823073-elegant-mountain-hotel-lobby-with-wooden-logs.jpg">
+				<h2 class="h-secondary center">Logging</h2>
+				<p class="center">here we provide logging also. please visit our hotel and enjoy it</p>
+			</div>
+			
+			<div class="box">
+				<img src="https://www.thespruceeats.com/thmb/PKK63OuoTMaezzPYvaq2fy-TB5Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bar101-cocktails-504754220-580e83415f9b58564cf470b9.jpg">
+				<h2 class="h-secondary center">Drinks</h2>
+				<p class="center"> Our Hotel provides you all type of Services such as all time Room servicing, cleaning.
+				Your and your Family Health is our Resposibility.</p>
+			</div>
+		</div>
+		
+		<div class="heading">
+			
+			<h2>We provide best quality food</h2>
+		</div>
+		
+		<div class="services-con">
+			<div class="s-box">
+				<img src="https://thenounproject.com/api/private/icons/3592871/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0">
+				<h3>Order</h3>
+				<p>There are many variations of passages of Lorem Ipsum available </p>
+			</div>
+			<div class="s-box">
+				<img src="https://png.pngtree.com/png-vector/20191129/ourmid/pngtree-fast-delivery-icon-delivery-icon-png-image_2047531.jpg">
+				<h3>Shipping</h3>
+				<p>There are many variations of passages of Lorem Ipsum available</p>
+			</div>
+			<div class="s-box">
+				<img src="https://www.citypng.com/public/uploads/preview/fast-scooter-delivery-shipping-orange-icon-21635366088rily62udqv.png">
+				<h3>Delivered</h3>
+				<p>There are many variations of passages of Lorem Ipsum available</p>
+			</div>
+			<div class="s-box">
+				<img src="https://cdn-icons-png.flaticon.com/512/8670/8670472.png">
+				<h3>Quality Food</h3>
+				<p>There are many variations of passages of Lorem Ipsum available </p>
+			</div>
+		</div>
+		
+		<div class="cta">
+			<h2>We provide the best Servises</h2>
+			<a href="#" class="btn">Let's talk</a>
+		</div>
+		</header>
+		</section>
+</body>
+</html>
